@@ -71,13 +71,6 @@ def winner(your_cards,computer_cards):
     else:
         print(f"sei la your {your} computer {computer} ")
         
-"""
-dealer and I have the same score = draw
-dealer hand < 17 - takes another card
-You bust hand >21 = auto lose
-dealer has Ace he can choose the value'1' or '11'
-
-"""
 def main():
     deck_cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
     continue_game = True
